@@ -1,0 +1,8 @@
+import math
+n,m=map(int,input().split())
+number=m*n
+root = math.sqrt(number)
+if int(root + 0.5) ** 2 == number:
+    print("yes")
+else:
+    print("no")
