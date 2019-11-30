@@ -1,0 +1,8 @@
+from fractions import gcd
+ 
+a,b=map(int,input().split())
+ 
+if gcd(a,b)==1:
+     print("1")
+else:
+     print("0")
